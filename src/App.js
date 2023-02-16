@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import sush from './data'
+import data from './data'
 import List from './List'
 
 const App = () => {
-  const [people, setPeople] = useState(sush)
+  const [people, setPeople] = useState(data)
   return (
     <>
       <div>
